@@ -13,3 +13,11 @@ if str(string) == str(string)[::-1]:
     print(x3, '- это палиндром')
 else:
     print(x3, '- это не палиндром')
+"""
+# надо было
+string = input('Введите данные: ').strip().lover()
+if string == str(string)[::-1]:
+    print(x3, '- это палиндром')
+else:
+    print(x3, '- это не палиндром')
+"""
